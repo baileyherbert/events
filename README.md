@@ -1,4 +1,4 @@
-# Logging
+# Events
 
 This is an alternative event emitter that works on all platforms. It allows you to specify the event types, and keeps
 the `emit` method protected.
