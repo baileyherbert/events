@@ -1,7 +1,7 @@
 /**
  * A simple, cross-platform event emitter with a familiar interface.
  */
-export abstract class EventEmitter<S extends EventEmitterSchema = EventEmitterSchema> {
+export class EventEmitter<S extends EventEmitterSchema = EventEmitterSchema> {
 
 	private _onListeners = new Map<string, Set<Callback>>();
 	private _onceListeners = new Map<string, Set<Callback>>();
